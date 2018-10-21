@@ -154,9 +154,100 @@ text-align: center;
 }
 
 .topImageRight img {
-	padding: 50px 0px 0px 0px;
+	padding: 20px 0px 0px 0px;
 }
 
+
+/*tablet*/
+
+@media only screen and (max-width: 1000px) {
+
+
+	.imagesRightColumn img {
+		width: 450px;
+		height: auto;
+		padding: 35px 0px 0px 0px;
+	}
+
+	.topImageRight img {
+		padding: 50px 0px 0px 0px;
+	}
+
+	.imagesLeaves img {
+	
+	height: 460px;
+	width: auto;
+	margin-top: -10px;
+	}
+
+	.small-paragraph {
+	
+		font-size: 19.1px;
+		
+	}
+
+	.highlight-paragraph {
+	
+	font-size: 34px;
+	
+	}
+
+	.column1 h1 {
+		display: none;
+	}
+
+	.column1 {
+	  float: left;
+	  width: 100%;
+	  padding: 10px 0px 0px 0px;
+	  text-align: left;
+	}
+
+	/* Clear floats after image containers */
+	.row1::after {
+	  content: "";
+	  clear: both;
+	  display: table;
+	}
+
+	.columnImages img {
+
+	height: 55px;
+	width: auto;
+	margin: 15px 0px 0px 0px;
+	}
+
+	.column1 p {
+
+	text-align: left;
+	font-size: 15px;
+	}
+
+	.paragraphTablet p {
+		margin-top: -40px;
+		margin-left: 80px;
+	}
+
+	.row1 {
+		margin: 45px 0px 0px 0px;
+	}
+
+	
+	.section {
+
+		padding: 0px 0px 60px 0px;
+
+	}
+
+	.buttonSecond {
+	padding: 50px 0px 0px 0px;
+	}
+
+	body {
+		padding: 25px 0px 0px 0px;
+	}
+
+}
 
 
 
