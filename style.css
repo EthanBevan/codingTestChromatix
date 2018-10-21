@@ -18,21 +18,25 @@ body {
 	background-color: #F6F6F6;
 	color: #27198C;
  	font-family: Muli;	 	
-	font-size: 12px;
+	font-size: 10px;
  	font-weight: 900;
  	letter-spacing: 1.4px;
  	line-height: 15px;
- 	padding: 18px 60px 16px 20px;
+ 	padding: 15px 60px 14px 15px;
  	border: 1px solid #FF6F0F;
 }
 
 .plusButton {
 	color: white;
 	background-color: #FF6F0F;
-	padding: 3px 18px 13px 18px;
+	padding: 4px 15px 13px 15px;
 	border: 1px solid #FF6F0F;
-	font-size: 28px;
+	font-size: 23px;
 	font-weight: 90;
+}
+
+.buttonSecond {
+	padding: 30px 0px 0px 0px;
 }
 
 
@@ -62,7 +66,7 @@ color: #BEBEBE;
 .highlight-paragraph {
 	color: #27198C;
 	font-family: Muli;
-	font-size: 30px;
+	font-size: 25px;
 	font-weight: 900;
 	line-height: 44px;
 }
@@ -70,14 +74,14 @@ color: #BEBEBE;
 .small-paragraph {
 	color: #191919;
 	font-family: Muli;
-	font-size: 16px;
+	font-size: 13px;
 	font-weight: 600;
 	line-height: 30px;
 }
 
 .section {
 
-	padding: 30px 0px 70px 0px;
+	padding: 20px 0px 60px 0px;
 
 }
 
@@ -85,7 +89,7 @@ color: #BEBEBE;
 .column1 {
   float: left;
   width: 25%;
-  padding: 70px 0px 0px 0px;
+  padding: 40px 0px 0px 0px;
   text-align: center;
 }
 
@@ -101,12 +105,26 @@ color: #BEBEBE;
 
 	height: 70px;
 	width: auto;
+	margin-top: -25px;
 }
 
 .column1 h1 {
-	
+	color: #E5E5E5;
+	font-family: Muli;
+	font-size: 48px;
+	font-weight: 900;
+	line-height: 58px;
 }
 
+.column1 p {
+	color: #27198C;
+	font-family: "Roboto Slab";
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 1.4px;
+	line-height: 22px;
+	text-align: center;
+}
 
 
 
@@ -119,7 +137,7 @@ text-align: center;
 }*/
 
 .columnInside {
-	padding: 40px;
+	padding: 20px;
 }
 
 .imagesLeaves img {
@@ -130,13 +148,13 @@ text-align: center;
 
 
 .imagesRightColumn img {
-	width: 550px;
+	width: 600px;
 	height: auto;
 	padding: 15px 0px 0px 0px;
 }
 
 .topImageRight img {
-	padding: 60px 0px 0px 0px;
+	padding: 50px 0px 0px 0px;
 }
 
 
