@@ -157,6 +157,10 @@ text-align: center;
 	padding: 20px 0px 0px 0px;
 }
 
+.row1Hidden {
+	display: none;
+}
+
 
 /*tablet*/
 
@@ -245,11 +249,177 @@ text-align: center;
 
 	body {
 		padding: 25px 0px 0px 0px;
+		
+
 	}
 
 }
 
 
+
+
+
+
+/*Mobile*/
+
+@media only screen and (max-width: 400px) {
+
+		.column {
+    float: left;
+    width: 100%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+		.imagesRightColumn img {
+		width: 350px;
+		height: auto;
+		padding: 35px 0px 0px 0px;
+	}
+
+	.topImageRight img {
+		padding: 50px 0px 0px 0px;
+	}
+
+	.imagesLeaves img {
+	
+	height: 350px;
+	width: auto;
+	margin-top: 40px;
+	}
+
+	.small-paragraph {
+	
+	color: #191919;
+	font-family: Muli;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 28px;
+		
+	}
+
+	.highlight-paragraph {
+	
+	color: #27198C;
+	font-family: Muli;
+	font-size: 22px;
+	font-weight: 900;
+	line-height: 34px;
+	
+	}
+
+	.column1 h1 {
+		display: none;
+	}
+
+	.column1 {
+	  float: left;
+	  width: 100%;
+	  padding: 10px 0px 0px 0px;
+	  text-align: left;
+	}
+
+	/* Clear floats after image containers */
+	.row1::after {
+	  content: "";
+	  clear: both;
+	  display: table;
+	}
+
+	.columnImages img {
+
+	height: 40px;
+	width: auto;
+	padding: 0px 0px 0px 0px;
+	}
+
+	.column1 p {
+
+	text-align: left;
+	font-size: 15px;
+	}
+
+	.paragraphTablet p {
+		margin-top: -35px;
+		margin-left: 60px;
+
+		color: #27198C;
+		font-family: "Roboto Slab";
+		font-size: 12px;
+		font-weight: bold;
+		letter-spacing: 1.4px;
+		line-height: 20px;
+	}
+
+	.row1 {
+		margin: 45px 0px 0px 0px;
+
+	}
+
+	
+	.section {
+
+		padding: 10px 0px 0px 0px;
+		margin: 0px 0px -10px 0px;
+
+	}
+
+	.buttonSecond {
+	padding: 50px 0px 0px 0px;
+	}
+
+	body {
+		padding: 0px 0px 0px 0px;
+		
+
+	}
+
+	.greyScheme h4 {
+	color: #BEBEBE;
+	font-family: "Roboto Slab";
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 1.2px;
+	line-height: 24px;
+	text-align: left;
+
+	}
+
+	.row1Hidden {
+	 display: inline;
+	
+	}
+
+	.row1HiddenTwo {
+		display: none;
+	}
+
+	.button {
+		background-color: #F6F6F6;
+		color: #27198C;
+	 	font-family: Muli;	 	
+		font-size: 10px;
+	 	font-weight: 900;
+	 	letter-spacing: 1.4px;
+	 	line-height: 15px;
+	 	padding: 16px 60px 14px 15px;
+	 	border: 1px solid #FF6F0F;
+	}
+
+	.plusButton {
+		color: white;
+		background-color: #FF6F0F;
+		padding: 0px 15px 12px 15px;
+		border: 1px solid #FF6F0F;
+		font-size: 28px;
+		font-weight: 90;
+	}
+
+}
 
 
 
