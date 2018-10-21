@@ -84,8 +84,9 @@ color: #BEBEBE;
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column1 {
   float: left;
-  width: 13%;
-  padding: 70px 40px 0px 25px;
+  width: 25%;
+  padding: 70px 0px 0px 0px;
+  text-align: center;
 }
 
 /* Clear floats after image containers */
@@ -94,6 +95,21 @@ color: #BEBEBE;
   clear: both;
   display: table;
 }
+
+
+.columnImages img {
+
+	height: 70px;
+	width: auto;
+}
+
+.column1 h1 {
+	
+}
+
+
+
+
 
 
 /*.column1 {
@@ -108,8 +124,23 @@ text-align: center;
 
 .imagesLeaves img {
 	
-	height: 620px;
+	height: 630px;
 	width: auto;
 }
+
+
+.imagesRightColumn img {
+	width: 550px;
+	height: auto;
+	padding: 15px 0px 0px 0px;
+}
+
+.topImageRight img {
+	padding: 60px 0px 0px 0px;
+}
+
+
+
+
 
 
