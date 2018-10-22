@@ -256,6 +256,38 @@ text-align: center;
 }
 
 
+/*Breaking it into 1 collumn after tablet */
+
+@media only screen and (max-width: 750px) {
+
+	.column {
+    float: left;
+    width: 100%;
+	}
+	.section {
+
+		padding: 0px 0px 0px 0px;
+		margin: 0px 0px -30px 0px;
+
+	}
+
+	.row1Hidden {
+	 display: inline;
+	
+	}
+
+	.row1HiddenTwo {
+		display: none;
+	}
+
+.imagesLeaves img {
+	
+	height: 550px;
+	width: auto;
+	margin-top: 40px;
+	}
+
+}
 
 
 
@@ -264,7 +296,7 @@ text-align: center;
 
 @media only screen and (max-width: 400px) {
 
-		.column {
+	.column {
     float: left;
     width: 100%;
 }
