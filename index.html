@@ -12,6 +12,9 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:300" rel="stylesheet">
 
+	
+
+
 	<script src="app.js"></script>
 
 
@@ -96,6 +99,9 @@
 
 			<!-- Here -->
 
+			
+
+
 	<div class="imagesLeaves">
 
 
@@ -103,20 +109,18 @@
 
 				<div class="mySlides">
 					
-				  <img src="images/image-leaves.png" style="width:100%">	
+				  <img class="slidesE" src="images/image-leaves.png" style="width:100%">	
 				   
 				</div>
 
 				<div class="mySlides">
-				  <img src="images/image-foxgates.png" style="width:100%">		  
+				  <img class="slidesE" src="images/image-foxgates.png" style="width:100%">		  
 				</div>
 
 				<div class="mySlides">
-				  <img src="images/image-ocean.png" style="width:100%">		  
+				  <img class="slidesE" src="images/image-ocean.png" style="width:100%">		  
 				</div>
 
-				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
 				</div>
 				<br>
@@ -127,13 +131,12 @@
 				  <span class="dot" onclick="currentSlide(3)"></span> 
 				</div>
 
+	
+
 				<script>
+
 				var slideIndex = 1;
 				showSlides(slideIndex);
-
-				function plusSlides(n) {
-			  	showSlides(slideIndex += n);
-				}
 
 				function currentSlide(n) {
 				  showSlides(slideIndex = n);
@@ -154,6 +157,8 @@
 				  slides[slideIndex-1].style.display = "block";  
 				  dots[slideIndex-1].className += " active";
 				}
+
+
 				</script>
 
 			</div>
