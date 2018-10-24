@@ -43,8 +43,8 @@ body {
 
 .circle {
   /*border-radius: 50%;*/
-  width: 40px;
-  height: 40px;
+  width: 41px;
+  height: 41px;
   padding: 2.7px;
   background-color: #FF6F0F;
   position: relative;
@@ -121,7 +121,7 @@ body {
 
 
 .buttonSecond {
-	padding: 30px 0px 0px 0px;
+	padding: 15px 0px 0px 0px;
 }
 
 
@@ -139,7 +139,7 @@ color: #BEBEBE;
 .greyScheme h4 {
 	color: #BEBEBE;
 	font-family: "Roboto Slab";
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: lighter;
 	letter-spacing: 1.8px;
 	line-height: 28px;
@@ -152,17 +152,18 @@ color: #BEBEBE;
 .highlight-paragraph {
 	color: #27198C;
 	font-family: Muli;
-	font-size: 25px;
+	font-size: 39px;
 	font-weight: 900;
-	line-height: 34px;
+	line-height: 60px;
+
 }
 
 .small-paragraph {
 	color: #191919;
 	font-family: Muli;
-	font-size: 13px;
+	font-size: 20px;
 	font-weight: 600;
-	line-height: 25px;
+	line-height: 38px;
 	margin-top: 30px;
 }
 
@@ -175,10 +176,10 @@ color: #BEBEBE;
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column1 {
   float: left;
-  width: 25%;
+  width: 17.99%;
   padding: 25px 0px 0px 0px;
   text-align: center;
-
+	margin: 22px;
 }
 
 /* Clear floats after image containers */
@@ -191,7 +192,7 @@ color: #BEBEBE;
 
 .columnImages img {
 
-	height: 70px;
+	height: 80px;
 	width: auto;
 	margin-top: -25px;
 }
@@ -207,8 +208,8 @@ color: #BEBEBE;
 .column1 p {
 	color: #27198C;
 	font-family: 'Roboto Slab';
-	font-size: 10px;
-	font-weight: 700;
+	font-size: 14.8px;
+	font-weight: 600;
 	letter-spacing: 1px;
 	line-height: 20px;
 	text-align: center;
@@ -226,7 +227,7 @@ text-align: center;
 }*/
 
 .columnInside {
-	padding: 15px;
+	padding: 12px;
 }
 
 .imagesLeaves img {
@@ -239,7 +240,7 @@ text-align: center;
 .imagesRightColumn img {
 	width: 600px;
 	height: auto;
-	padding: 15px 0px 0px 0px;
+	padding: 20px 0px 0px 0px;
 }
 
 .topImageRight img {
@@ -250,6 +251,14 @@ text-align: center;
 	display: none;
 }
 
+.HiddenMobile {
+	 display: inline;
+	
+	}
+
+	.slidesE {
+		display: none;
+	}
 
 
 /*tablet*/
@@ -260,7 +269,7 @@ text-align: center;
 	.imagesRightColumn img {
 		width: 150px;
 		height: 300px;
-		padding: 45px 0px 0px 0px;
+		padding: 40px 0px 0px 0px;
 		margin-top: -20px;
 	}
 
@@ -279,7 +288,7 @@ text-align: center;
 	
 		font-size: 14.46px;
 		margin-top: -7px;
-		padding: 0px 0px 10px 0px;
+		padding: 10px 0px 10px 0px;
 		color: #191919;
 		line-height: 32px;
 		
@@ -352,7 +361,7 @@ text-align: center;
 	}
 
 	body {
-		padding: 25px 0px 0px 0px;
+		padding: 10px 0px 0px 0px;
 		
 
 	}
@@ -425,12 +434,21 @@ text-align: center;
 	  z-index: 9;
 	}
 
+	.HiddenMobile {
+	 display: inline;
+	
+	}
+
+	.slidesE {
+		display: none;
+	}
+
 }
 
 
 /*Breaking it into 1 collumn after tablet */
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 700px) {
 
 	.column {
     float: left;
@@ -459,6 +477,8 @@ text-align: center;
 	margin-top: 40px;
 	}
 
+
+
 }
 
 
@@ -480,8 +500,8 @@ text-align: center;
 }
 
 		.imagesRightColumn img {
-		width: 350px;
-		height: auto;
+		height: 350px;
+		width: auto;
 		padding: 35px 0px 0px 0px;
 		display: none;
 	}
@@ -492,7 +512,7 @@ text-align: center;
 
 	.imagesLeaves img {
 	
-	height: 350px;
+	height: 330px;
 	width: auto;
 	margin-top: 40px;
 	}
@@ -504,6 +524,7 @@ text-align: center;
 	font-size: 14px;
 	font-weight: 600;
 	line-height: 28px;
+	padding: 20px 0px 0px 0px;
 		
 	}
 
@@ -511,7 +532,7 @@ text-align: center;
 	
 	color: #27198C;
 	font-family: Muli;
-	font-size: 22px;
+	font-size: 21px;
 	font-weight: 900;
 	line-height: 34px;
 	
@@ -524,9 +545,9 @@ text-align: center;
 	.column1 {
 	  float: left;
 	  width: 100%;
-	  padding: 10px 0px 0px 0px;
+	  padding: 0px 0px 0px 0px;
 	  text-align: left;
-	  
+	  margin: -2px 0px 0px 0px;
 	}
 /*
 .slideshow-container {
@@ -554,6 +575,7 @@ text-align: center;
 	height: 40px;
 	width: auto;
 	padding: 0px 0px 0px 0px;
+
 	}
 
 	.column1 p {
@@ -575,7 +597,7 @@ text-align: center;
 	}
 
 	.row1 {
-		margin: 45px 0px 0px 0px;
+		margin: 35px 0px 0px 0px;
 
 	}
 
@@ -589,6 +611,7 @@ text-align: center;
 
 	.buttonSecond {
 	padding: 50px 0px 0px 0px;
+
 	}
 
 	body {
@@ -737,6 +760,15 @@ text-align: center;
 	  top: 15px;
 	  bottom: 15px;
 	  z-index: 9;
+	}
+
+	.HiddenMobile {
+	 display: none;
+	
+	}
+
+	.slidesE {
+		display: inline;
 	}
 
 }
