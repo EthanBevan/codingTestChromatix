@@ -9,253 +9,265 @@
 	<link href="https://fonts.googleapis.com/css?family=Muli:900" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700, 600" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Muli:600" rel="stylesheet">
-
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:300" rel="stylesheet">
-
-	
-
 
 	<script src="app.js"></script>
 
-
 </head>
+
 <body>
-
-<div class="row">
- 	 <div class="column">
-		<div class="columnInside">
-  	
-
-		  	<div class="greyScheme">
-		  		<h4 id="section-heading">SECTION HEADING</h4> 
-			</div>
-
-		  		<div class="highlightBox"><h1 class="highlight-paragraph">Highlight paragraph<br> duis aute irure dolor in reprehenderit in voluptate velit energy efficiency eu di fugiat.
-		  		</h1></div>
-
-			  	<div class="paragraphBox"><p class="small-paragraph">Sed ut perspiciatis unde omnis iste natus <br> error sit voluptatem accusantium doloremque 
-				laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi ventus vitae ventus consecutem terra lora magnum lorem aqua.
-				</p></div>
-
-			<div class="section">
-					<button class="button">BUTTON</button><div class="circle"></div>
-			</div>
-
-			<div class="row1Hidden">
-				<div class="row1">
-					  <div class="column1">
-
-					    			<h1>01</h1>
-						
-					   		 <div class="columnImages">
-									<img src="images/placeholder.png">
-							 </div>
-
-									<div class="paragraphTablet"><p>Icon Label Lorem Ipsum Terra</p></div>			
-					  </div>
-					 
-					  <div class="column1">
-
-					    			<h1>02</h1>
-
-					    	<div class="columnImages">
-									<img src="images/placeholder.png">
-							</div>
-
-									<div class="paragraphTablet"><p>Icon Label Lorem</p></div>
-					  </div>
-					  
-					  <div class="column1">
-
-					   				<h1>03</h1>
-					    	<div class="columnImages">
-									<img src="images/placeholder.png">
-							</div>
-
-									<div class="paragraphTablet"><p>Icon Label Lorem Ipsum Terra</p></div>
-					  </div>
-
-					   <div class="column1">
-
-					   				<h1>04</h1>
-					    	<div class="columnImages">
-									<img src="images/placeholder.png">
-							</div>
-									<div class="paragraphTablet"><p>Icon Label</p></div>
-					  </div>
+		<!-- Converting into two columns -->
+	<div class="row">
+	 	 
+	 	 <div class="column">
 				
+				<!-- padding around columns -->
+			<div class="columnInside">
+	  	
+
+			  	<div class="greyScheme">
+			  		<h4 id="section-heading">SECTION HEADING</h4> 
 				</div>
 
-			</div>
+			  	<div class="highlightBox">
+			  		<h1 class="highlight-paragraph">Highlight paragraph<br> duis aute irure dolor in reprehenderit in voluptate velit energy efficiency eu di fugiat.
+			  		</h1>
+			  	</div>
 
-	
+				<div class="paragraphBox">
+				  	<p class="small-paragraph">Sed ut perspiciatis unde omnis iste natus <br> error sit voluptatem accusantium doloremque 
+					laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi ventus vitae ventus consecutem terra lora magnum lorem aqua.
+					</p>
+				</div>
+
+				<!-- button -->
+
+				<div class="section">
+						<button class="button">BUTTON</button><div class="circle"></div>
+				</div>
+
+				<!-- Placeholder images -->
 				
-
-
-
-
-			
-
-
-			<!-- Here -->
-
-			
-
-
-	<div class="imagesLeaves">
-		<div class="HiddenMobile">
-		<img src="images/image-leaves.png" style="width:100%">	
-	</div>
-
-
-				<div class="slideshow-container">
-
-				<div class="mySlides">
+				<div class="row1Hidden">
 					
-				  <img class="slidesE" src="images/image-leaves.png" style="width:100%">	
-				   
-				</div>
+					<div class="row1">
+						  
+						  <div class="column1">
 
-				<div class="mySlides">
-				  <img class="slidesE" src="images/image-foxgates.png" style="width:100%">		  
-				</div>
+						    		
+						    		<h1>01</h1>
+							
+						   		 <div class="columnImages">
+										<img src="images/placeholder.png">
+								 </div>
 
-				<div class="mySlides">
-				  <img class="slidesE" src="images/image-ocean.png" style="width:100%">		  
-				</div>
+								<div class="paragraphTablet">
+										<p>Icon Label Lorem Ipsum Terra</p>
+								</div>	
 
+						  </div>
 
-				</div>
-				<br>
+						 
+						  <div class="column1">
 
-				<div style="text-align:center">
-				  <span class="dot" onclick="currentSlide(1)"></span> 
-				  <span class="dot" onclick="currentSlide(2)"></span> 
-				  <span class="dot" onclick="currentSlide(3)"></span> 
-				</div>
+						    		<h1>02</h1>
 
-	
+						    	<div class="columnImages">
+									<img src="images/placeholder.png">
+								</div>
 
-				<script>
+								<div class="paragraphTablet">
+									<p>Icon Label Lorem</p>
+								</div>
+						 
+						  </div>
 
-			var slideIndex = 0;
-showSlides();
+						  
+						  <div class="column1">
 
-function showSlides() {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
-    for (i = 0; i < slides.length; i++) {
-       slides[i].style.display = "none";  
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}    
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 2000); // Change image every 2 seconds
-}
+						   			<h1>03</h1>
 
+						    	<div class="columnImages">
+									<img src="images/placeholder.png">
+								</div>
 
+								<div class="paragraphTablet">
+									<p>Icon Label Lorem Ipsum Terra</p>
+								</div>
 
-				</script>
+						  </div>
 
-			</div>
+						   <div class="column1">
 
+						   				<h1>04</h1>
 
-					<!-- here -->
-
-
-					<div class="section">
-						<div class="buttonSecond">
-							<button class="button">BUTTON</button><div class="circle2"></div>
-						</div>
+						    	<div class="columnImages">
+										<img src="images/placeholder.png">
+								</div>
+								<div class="paragraphTablet">
+										<p>Icon Label</p>
+								</div>
+						  </div>
+					
 					</div>
 
+				</div>
+
+		
+			
+			<!-- 3 images in rotation  -->
+
+		<div class="imagesLeaves">
+
+					<div class="HiddenMobile">
+
+			<img src="images/image-leaves.png" style="width:100%">	
+		
+		</div>
+
+					<div class="slideshow-container">
+
+						<div class="mySlides">
+						  <img class="slidesE" src="images/image-leaves.png" style="width:100%">	
+						</div>
+
+						<div class="mySlides">
+						  <img class="slidesE" src="images/image-foxgates.png" style="width:100%">		  
+						</div>
+
+						<div class="mySlides">
+						  <img class="slidesE" src="images/image-ocean.png" style="width:100%">		  
+						</div>
+
+					</div>
+
+					<br>
+
+					<div style="text-align:center">
+					  <span class="dot" onclick="currentSlide(1)"></span> 
+					  <span class="dot" onclick="currentSlide(2)"></span> 
+					  <span class="dot" onclick="currentSlide(3)"></span> 
+					</div>
+
+		
+
+					<script>
+
+					var slideIndex = 0;
+					showSlides();
+
+					function showSlides() {
+					    var i;
+					    var slides = document.getElementsByClassName("mySlides");
+					    var dots = document.getElementsByClassName("dot");
+					    for (i = 0; i < slides.length; i++) {
+					       slides[i].style.display = "none";  
+					    }
+					    slideIndex++;
+					    if (slideIndex > slides.length) {slideIndex = 1}    
+					    for (i = 0; i < dots.length; i++) {
+					        dots[i].className = dots[i].className.replace(" active", "");
+					    }
+					    slides[slideIndex-1].style.display = "block";  
+					    dots[slideIndex-1].className += " active";
+					    setTimeout(showSlides, 2000); // Change image every 2 seconds
+						}
+
+					</script>
+
+				</div>
 
 
-		  		</div>
-  </div>
+						<!-- here -->
 
 
+						<div class="section">
+							<div class="buttonSecond">
+								<button class="button">BUTTON</button><div class="circle2"></div>
+							</div>
+						</div>
+
+			  		</div>
+	  
+	  			</div>
 
 
+<!-- Other placeholder section -->
 
+	<div class="column">
 
+			<div class="columnInside">
 
+				<div class="greyScheme">
+					<div class="row1HiddenTwo">
+						<div class="row1">
+						  <div class="column1">
 
-<div class="column">
+						    			<h1>01</h1>
+							
+						   		 <div class="columnImages">
+										<img src="images/placeholder.png">
+								 </div>
+										<div class="paragraphTablet"><p>
+										Icon Label Lorem Ipsum Terra</p>
+									</div>			
+						  </div>
+						 
+						  <div class="column1">
 
-		<div class="columnInside">
+						    			<h1>02</h1>
 
-			<div class="greyScheme">
-			<div class="row1HiddenTwo">
-				<div class="row1">
-					  <div class="column1">
-
-					    			<h1>01</h1>
-						
-					   		 <div class="columnImages">
-									<img src="images/placeholder.png">
-							 </div>
-
-									<div class="paragraphTablet"><p>Icon Label Lorem Ipsum Terra</p></div>			
-					  </div>
-					 
-					  <div class="column1">
-
-					    			<h1>02</h1>
-
-					    	<div class="columnImages">
-					    		<div class="secondImageBox">
-					    			
-									<img src="images/placeholder.png">
+						    	<div class="columnImages">
+						    		<div class="secondImageBox">
+										<img src="images/placeholder.png">
+									</div>
 								</div>
-							</div>
 
-									<div class="paragraphTablet"><p>Icon Label Lorem</p></div>
-					  </div>
-					  
-					  <div class="column1">
+									<div class="paragraphTablet">
+										<p>	Icon Label Lorem</p>
+									</div>
+						  </div>
+						  
+						  <div class="column1">
 
-					   				<h1>03</h1>
-					    	<div class="columnImages">
-									<img src="images/placeholder.png">
-							</div>
-
-									<div class="paragraphTablet"><p>Icon Label Lorem Ipsum Terra</p></div>
-					  </div>
-
-					   <div class="column1">
-
-					   				<h1>04</h1>
-					   				<div class="secondImageBox">
-					    	<div class="columnImages">
-									<img src="images/placeholder.png">
+						   				<h1>03</h1>
+						    	<div class="columnImages">
+										<img src="images/placeholder.png">
 								</div>
-							</div>
-									<div class="paragraphTablet"><p>Icon Label</p></div>
-					  </div>
-				
+
+										<div class="paragraphTablet">
+											<p>Icon Label Lorem Ipsum Terra</p>
+									</div>
+						  </div>
+
+						   <div class="column1">
+
+						   				<h1>04</h1>
+						   			<div class="secondImageBox">
+						    	<div class="columnImages">
+										<img src="images/placeholder.png">
+									</div>
+								</div>
+									<div class="paragraphTablet">
+											<p>Icon Label</p>
+									</div>
+						  </div>
+					</div>
 				</div>
 			</div>
+
+			<!-- foxgates and ocean images -->
+				
+				<div class="imagesRightColumn">
+
+					<div class="topImageRight">
+				  		<img src="images/image-foxgates.png" style="width:100%">
+					</div>
+
+				  		<img src="images/image-ocean.png" style="width:100%">
+			    </div>
+			</div>
 		</div>
-			
-			<div class="imagesRightColumn">
-
-				<div class="topImageRight">
-			  		<img src="images/image-foxgates.png" style="width:100%">
-				</div>
-
-			  	<img src="images/image-ocean.png" style="width:100%">
-		     </div>
-</div>
-
-
-
-</div>
 	
 </body>
 </html>
