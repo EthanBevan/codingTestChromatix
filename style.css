@@ -15,6 +15,10 @@ body {
     clear: both;
 }
 
+.highlightBox br {
+		display: none;
+	}
+
 
 .button {
 	background-color: #F6F6F6;
@@ -542,6 +546,11 @@ text-align: center;
 
 @media (min-width: 1000px) and (max-width : 1500px){
 
+body {
+		padding: 40px 30px 0px 30px;
+
+	}
+
 
 .column {
     float: left;
@@ -559,11 +568,11 @@ text-align: center;
 	background-color: #F6F6F6;
 	color: #27198C;
  	font-family: Muli;	 	
-	font-size: 10px;
+	font-size: 15px;
  	font-weight: 900;
  	letter-spacing: 1.4px;
  	line-height: 15px;
- 	padding: 15px 60px 14px 15px;
+ 	padding: 22px 90px 25px 28px;
  	border: 1px solid #FF6F0F;
 }
 
@@ -584,12 +593,12 @@ text-align: center;
 
 .circle {
   /*border-radius: 50%;*/
-  width: 41px;
-  height: 41px;
+  width: 59px;
+  height: 59px;
   padding: 2.7px;
   background-color: #FF6F0F;
   position: relative;
-  margin: -46px 0px 0px 128px;
+  margin: -64px 0px 0px 190px;
 }
 .circle::after {
   content: " ";
@@ -599,8 +608,8 @@ text-align: center;
   height: 1px;
   margin-top: -1px;
   top: 50%;
-  left: 15px;
-  right: 15px;
+  left: 20px;
+  right: 20px;
   z-index: 9;
 }
 .circle::before {
@@ -611,20 +620,20 @@ text-align: center;
   width: 1px;
   margin-left: -1px;
   left: 50%;
-  top: 15px;
-  bottom: 15px;
+  top: 20px;
+  bottom: 20px;
   z-index: 9;
 }
 
 
 .circle2 {
   /*border-radius: 50%;*/
-  width: 40px;
-  height: 40px;
-  padding: 2.9px;
+  width: 58px;
+  height: 58px;
+  padding: 3px;
   background-color: #FF6F0F;
   position: relative;
-  margin: -46px 0px 0px 128px;
+  margin: -64px 0px 0px 178px;
 }
 .circle2::after {
   content: " ";
@@ -634,8 +643,8 @@ text-align: center;
   height: 1px;
   margin-top: -1px;
   top: 50%;
-  left: 15px;
-  right: 15px;
+  left: 20px;
+  right: 20px;
   z-index: 9;
 }
 .circle2::before {
@@ -646,8 +655,8 @@ text-align: center;
   width: 1px;
   margin-left: -1px;
   left: 50%;
-  top: 15px;
-  bottom: 15px;
+  top: 20px;
+  bottom: 20px;
   z-index: 9;
 }
 
@@ -717,10 +726,10 @@ color: #BEBEBE;
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column1 {
   float: left;
-  width: 17.99%;
+  width: 19.99%;
   padding: 25px 0px 0px 0px;
   text-align: center;
-	margin: 22px;
+	margin: 15px;
 }
 
 /* Clear floats after image containers */
@@ -730,10 +739,14 @@ color: #BEBEBE;
   display: table;
 }
 
+.row1 {
+	margin: 15px 0px 0px 0px;
+}
+
 
 .columnImages img {
 
-	height: 80px;
+	height: 90px;
 	width: auto;
 	margin-top: -25px;
 }
@@ -741,7 +754,7 @@ color: #BEBEBE;
 .column1 h1 {
 	color: #E5E5E5;
 	font-family: Muli;
-	font-size: 38px;
+	font-size: 45px;
 	font-weight: 900;
 	line-height: 58px;
 }
@@ -749,10 +762,10 @@ color: #BEBEBE;
 .column1 p {
 	color: #27198C;
 	font-family: 'Roboto Slab';
-	font-size: 14.8px;
+	font-size: 15.8px;
 	font-weight: 600;
 	letter-spacing: 1px;
-	line-height: 20px;
+	line-height: 28px;
 	text-align: center;
 	text-transform: uppercase;
 }
@@ -773,7 +786,7 @@ text-align: center;
 
 .imagesLeaves img {
 	
-	height: 630px;
+	height: 620px;
 	width: auto;
 }
 
@@ -810,6 +823,16 @@ text-align: center;
 
 @media only screen and (max-width: 1000px) {
 
+	.columnInside {
+	padding: 12px;
+}
+
+
+body {
+		padding: 10px 10px 0px 10px;
+		
+
+	}
 
 	.imagesRightColumn img {
 		width: 150px;
@@ -844,11 +867,15 @@ text-align: center;
 	
 		color: #27198C;
 	font-family: Muli;
-	font-size: 25.5px;
+	font-size: 25px;
 	font-weight: 900;
 	line-height: 44px;
 
 	
+	}
+
+	.highlightBox {
+		width: 95%;
 	}
 
 	.column1 h1 {
@@ -860,6 +887,7 @@ text-align: center;
 	  width: 100%;
 	  padding: 10px 0px 0px 0px;
 	  text-align: left;
+	  margin: 40px 0px 0px 0px;
 	}
 
 	/* Clear floats after image containers */
@@ -873,7 +901,7 @@ text-align: center;
 
 	height: 48px;
 	width: auto;
-	margin: 15px 0px 0px 0px;
+	margin: -25px 0px 0px 0px;
 
 	}
 
@@ -887,11 +915,12 @@ text-align: center;
 
 	.paragraphTablet p {
 		margin-top: -40px;
-		margin-left: 80px;
+		margin-left: 70px;
 	}
 
 	.row1 {
-		margin: 45px 0px 0px 0px;
+		margin: 65px 0px 0px 0px;
+
 	}
 
 	
@@ -905,11 +934,7 @@ text-align: center;
 	padding: 30px 0px 0px 0px;
 	}
 
-	body {
-		padding: 10px 0px 0px 0px;
-		
 
-	}
 
 	.circle {
 	  /*border-radius: 50%;*/
@@ -1090,10 +1115,12 @@ text-align: center;
 	.column1 {
 	  float: left;
 	  width: 100%;
-	  padding: 0px 0px 0px 0px;
-	  text-align: left;
-	  margin: -2px 0px 0px 0px;
+  padding: 20px 0px 0px 0px;
+  text-align: left;
+	margin: 22px 0px 0px 0px;
 	}
+
+
 /*
 .slideshow-container {
 	 display: flex;
@@ -1135,14 +1162,14 @@ text-align: center;
 
 		color: #27198C;
 		font-family: "Roboto Slab";
-		font-size: 12px;
+		font-size: 11px;
 		font-weight: bold;
 		letter-spacing: 1.4px;
 		line-height: 20px;
 	}
 
 	.row1 {
-		margin: 35px 0px 0px 0px;
+		margin: 30px 0px 0px 0px;
 
 	}
 
