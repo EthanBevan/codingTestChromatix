@@ -516,7 +516,7 @@ text-align: center;
 }*/
 
 .columnInside {
-	padding: 20px;
+	padding: 20px 20px 20px 20px;
 }
 
 .imagesLeaves img {
@@ -841,6 +841,10 @@ body {
 	
 
 	}
+
+	.paragraphBox br {
+	display: none;
+}
 
 
 .column {
