@@ -980,7 +980,7 @@ color: #BEBEBE;
 .greyScheme h4 {
 	color: #BEBEBE;
 	font-family: "Roboto Slab";
-	font-size: 18px;
+	font-size: 15px;
 	font-weight: lighter;
 	letter-spacing: 1.8px;
 	line-height: 28px;
@@ -993,18 +993,18 @@ color: #BEBEBE;
 .highlight-paragraph {
 	color: #27198C;
 	font-family: Muli;
-	font-size: 39px;
+	font-size: 35px;
 	font-weight: 900;
-	line-height: 60px;
+	line-height: 40px;
 
 }
 
 .small-paragraph {
 	color: #191919;
 	font-family: Muli;
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 600;
-	line-height: 38px;
+	line-height: 28px;
 	margin-top: 30px;
 }
 
@@ -1031,8 +1031,9 @@ color: #BEBEBE;
 }
 
 .row1 {
-	margin: 15px 0px 0px 0px;
+	margin: 15px -80px 0px -10px;
 }
+
 
 
 .columnImages img {
@@ -1053,7 +1054,7 @@ color: #BEBEBE;
 .column1 p {
 	color: #27198C;
 	font-family: 'Roboto Slab';
-	font-size: 15.8px;
+	font-size: 9.8px;
 	font-weight: 600;
 	letter-spacing: 1px;
 	line-height: 28px;
@@ -1141,6 +1142,17 @@ body {
 	height: 390px;
 	width: auto;
 	margin-top: -10px;
+	}
+
+	.greyScheme h4 {
+	color: #BEBEBE;
+    font-family: "Roboto Slab";
+    font-size: 17px;
+    font-weight: lighter;
+    letter-spacing: 1.8px;
+    line-height: 28px;
+    text-align: left;
+    margin-bottom: -5px;
 	}
 
 	.small-paragraph {
@@ -1632,6 +1644,10 @@ body {
 
 	.slidesE {
 		display: inline;
+	}
+
+	.highlightBox br {
+		display: none;
 	}
 
 }
